@@ -1,3 +1,3 @@
-export const getDate = () => {
+export const getDate = () => { // Императивный
     return new Date().getFullYear();
 }
