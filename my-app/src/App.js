@@ -3,9 +3,9 @@ import './App.css';
 import { getDate } from './utils';
 
 export const App = () => { // императивный
-	return (
-		<div className="App">
-			<header className="App-header"> {/*Дальше декларативный*/}
+	return ( 
+		<div className="App"> {/*Дальше декларативный*/}
+			<header className="App-header"> 
 				<img src={logo} className="App-logo" alt="logo" />
 				<p>
 					Edit <code>src/App.js</code> and save to reload.
